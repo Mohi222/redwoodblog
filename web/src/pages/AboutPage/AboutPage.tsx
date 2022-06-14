@@ -6,24 +6,20 @@ const AboutPage = () => {
     <>
       <MetaTags title="About" description="About page" />
 
-      <header>
-        <h1>Redwood Blog</h1>
-
-        <nav>
-          <ul>
-            <li><Link to={routes.home()} >Home</Link></li>
-          </ul>
-        </nav>
-      </header>
-
       <h1>AboutPage</h1>
       <p>
-        Find me in <code>./web/src/pages/AboutPage/AboutPage.tsx</code>
+        Those who came here will be the ones who will be the most successful and
+        the ones who will be the most successful.
       </p>
       <p>
-        My default route is named <code>about</code>, link to me with `
-        <Link to={routes.about()}>About</Link>`
+        Those who are about to enter the world of the future will be the ones
+        who will be the most successful.
+      w</p>
+      <p>
+        We who use Redwood to build our applications will be the ones who will
+        be the most successful.
       </p>
+      <pre>(these were genrated by Copilot)</pre>
     </>
   )
 }
